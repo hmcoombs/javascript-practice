@@ -3,4 +3,4 @@
 to better animate web pages*/
 
 console.log('Mike');
-console.log('my favorite food is pizza: with pinapple!')
+console.log('my favorite food is pizza: with pinapple!');
