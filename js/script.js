@@ -6,11 +6,9 @@
 // Alert the larger number
 
 
-let firstNumber = prompt("Please provide the first number", "0");
+let firstNumber = prompt("Please provide the first number", "");
 
-let secondNumber = prompt("Please provide the second number", "0");
-
-
+let secondNumber = prompt("Please provide the second number", "");
 
 // Convert the values to integers
 // Store the two integers as variables
@@ -24,12 +22,12 @@ console.log(intSN)
 
 while(isNaN(intFN)) {
     intFN = prompt("Please provide the first number again");
+    
 }
 
 while(isNaN(intSN)) {
     intSN = prompt("Please provide the second number again");
 }
-
 
 
 // Compare the two numbers
@@ -51,3 +49,19 @@ if (intFN === intSN) {
 // Add an edge case to your daily challenge code
 // Check if the user input anything other than a number
 // If so, prompt the user again to input a number
+
+
+
+// things tried
+
+// if (prompt === null)
+
+// if (intFN === "") {
+//     break 
+// } else if (intFN === Number) {
+// continue;
+// }
+
+// if (prompt === null) {
+//     break; 
+// }
