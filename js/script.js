@@ -17,18 +17,17 @@ let secondNumber = prompt("Please provide the second number", "0");
 let intFN = Number(firstNumber);
 let intSN = Number(secondNumber);
 console.log(intFN)
-console.log(secondNumber)
+console.log(intSN)
 
-while(intFN === NaN) {
-    prompt("Please input only a first number")
-{
-    if (intFN !== NaN) {
-        break;
-}
+// Check if the user input anything other than a number
+// If so, prompt the user again to input a number
+
+while(isNaN(intFN)) {
+    intFN = prompt("Please provide the first number again");
 }
 
-while(intSN === NaN) {
-    prompt("Please input only a second number")
+while(isNaN(intSN)) {
+    intSN = prompt("Please provide the second number again");
 }
 
 
